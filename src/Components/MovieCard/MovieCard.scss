@@ -1,0 +1,27 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.card-image img{
+    width: 100%;
+}
+
+.card-action a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin-top:  0.5rem;
+    border-radius: 5px;
+
+}
+@media only screen and (max-width: 450px) {
+
+    .card {
+        padding: 2rem;
+        margin: 1.5rem;
+        
+    }
+}
